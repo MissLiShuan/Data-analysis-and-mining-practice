@@ -28,3 +28,24 @@ plt.show() #展示箱线图
 箱型图的详解
 https://blog.csdn.net/Arwen_H/article/details/84855825
 '''
+#笔记1###########################annotate()的参数说明#################
+'''
+
+    xy=(横坐标，纵坐标)  箭头尖端
+
+    xytext=(横坐标，纵坐标) 文字的坐标，指的是最左边的坐标
+
+    arrowprops= {
+
+        facecolor= '颜色',
+
+        shrink = '数字' <1  收缩箭头
+
+    }
+
+
+
+plt.annotate('local max', xy=(2,1), xytext=(3,1.5),
+
+arrowprops=dict(facecolor='black', shrink=0.05)) #
+'''
