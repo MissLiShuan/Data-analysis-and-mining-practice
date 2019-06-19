@@ -24,3 +24,7 @@ for i in range(len(x)):
     plt.annotate(y[i], xy = (x[i],y[i]), xytext=(x[i]+0.08,y[i]))
 
 plt.show() #展示箱线图
+'''
+箱型图的详解
+https://blog.csdn.net/Arwen_H/article/details/84855825
+'''
