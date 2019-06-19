@@ -1,7 +1,7 @@
 #-*- coding: utf-8 -*-
 import pandas as pd
 
-catering_sale = 'G:/python教程/chapter3/chapter3/demo/data/catering_sale.xls' #餐饮数据
+catering_sale = 'catering_sale.xls' #餐饮数据
 data = pd.read_excel(catering_sale, index_col = u'日期') #读取数据，指定“日期”列为索引列
 
 import matplotlib.pyplot as plt #导入图像库
